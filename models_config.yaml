@@ -1,0 +1,89 @@
+# Model list for the publication citation benchmark.
+# Entry order determines table and job-submission order.
+models:
+  bert_large_uncased:
+    huggingface_id: google-bert/bert-large-uncased
+    display_name: BERT-large-uncased
+    directory_name: bert-large-uncased
+
+  scibert_scivocab_uncased:
+    huggingface_id: allenai/scibert_scivocab_uncased
+    display_name: SciBERT-scivocab-uncased
+    directory_name: scibert_scivocab_uncased
+
+  patent_sberta:
+    huggingface_id: AI-Growth-Lab/PatentSBERTa
+    display_name: PatentSBERTa
+    directory_name: patent_sberta
+
+  specter:
+    huggingface_id: allenai/specter
+    display_name: SPECTER
+    directory_name: specter
+
+  specter2_base:
+    huggingface_id: allenai/specter2_base
+    display_name: SPECTER 2 Base
+    directory_name: specter2_base
+
+  e5_large_v2:
+    huggingface_id: intfloat/e5-large-v2
+    display_name: E5-large-v2
+    directory_name: e5_large_v2
+
+  bert_for_patents:
+    huggingface_id: anferico/bert-for-patents
+    display_name: BERT for Patents
+    directory_name: bert_for_patents
+
+  gte_large:
+    huggingface_id: thenlper/gte-large
+    display_name: GTE-large
+    directory_name: gte_large
+
+  bge_large_en_v1_5:
+    huggingface_id: BAAI/bge-large-en-v1.5
+    display_name: BGE-large-en-v1.5
+    directory_name: bge_large_en_v1.5
+
+  patembed_retrieval_IN:
+    huggingface_id: datalyes/patembed-large
+    display_name: patembed-large (IN)
+    directory_name: patembed_large_IN
+    normalize: true # embeddings = F.normalize(embeddings, p=2, dim=1)
+    q_text: "encode query for same document retrieval: " # include separator
+    doc_text: "encode document for same retrieval: "
+
+  patembed_retrieval_OUT:
+    huggingface_id: datalyes/patembed-large
+    display_name: patembed-large (OUT)
+    directory_name: patembed_large_OUT
+    normalize: true # embeddings = F.normalize(embeddings, p=2, dim=1)
+    q_text: "encode query for different document retrieval: " # include separator
+    doc_text: "encode document for different retrieval: " # include separator
+
+  patembed_retrieval_MIXED:
+    huggingface_id: datalyes/patembed-large
+    display_name: patembed-large (MIXED)
+    directory_name: patembed_large_MIXED
+    normalize: true # embeddings = F.normalize(embeddings, p=2, dim=1)
+    q_text: "encode query for mixed document retrieval: " # include separator
+    doc_text: "encode document for mixed retrieval: " # include separator
+
+  pat_specter:
+    huggingface_id: mpi-inno-comp/pat_specter
+    display_name: Pat-SPECTER
+    directory_name: pat_specter
+
+  paecter:
+    huggingface_id: mpi-inno-comp/paecter
+    display_name: PaECTER
+    directory_name: paecter
+
+  pub_paecter:
+    # this model has no public Hugging Face download.
+    # Set enabled to true after providing pretrained_models/pubpaecter locally.
+    enabled: false
+    huggingface_id: null
+    display_name: Pub-PaECTER
+    directory_name: pubpaecter

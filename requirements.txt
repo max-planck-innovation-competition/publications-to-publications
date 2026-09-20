@@ -1,0 +1,9 @@
+datasets==4.0.0
+pandas==2.2.3
+PyYAML==6.0.2
+rank-bm25==0.2.2
+scikit-learn==1.7.1
+sentence-transformers==5.1.0
+transformers==4.51.3
+torch>=2.3,<3
+tqdm==4.67.1

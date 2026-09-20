@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# testing files
+test.ipynb
+
+# Standalone citation benchmark artifacts
+/data/science_test/
+/data_cache/
+/pretrained_models/
+/output/
+/logs/
+/.venv/
