@@ -10,11 +10,10 @@ MODEL_NAME=$1
 TEST_DATA_TYPE=$2
 TEST_DATA_PATH=$3
 PYTHON=$4
-PROJECT_ROOT=$(cd "$(dirname "$0")/.." && pwd)
+PROJECT_ROOT=$SLURM_SUBMIT_DIR
 
 cd "$PROJECT_ROOT"
 
-# Same two pooling runs as the original cross-corpus Slurm job.
 for pooling in cls mean; do
     srun "$PYTHON" -m src.main test-ranking \
         --test-model-path "$PROJECT_ROOT/pretrained_models/$MODEL_NAME" \
