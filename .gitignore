@@ -160,6 +160,7 @@ __marimo__/
 
 # testing files
 test.ipynb
+extras/
 
 # Standalone citation benchmark artifacts
 /data/science_test/

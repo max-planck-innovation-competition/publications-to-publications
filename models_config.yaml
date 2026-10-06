@@ -23,13 +23,16 @@ models:
 
   specter2_base:
     huggingface_id: allenai/specter2_base
-    display_name: SPECTER 2 Base
+    display_name: SPECTER 2 + proximity adapter
     directory_name: specter2_base
+    adapter: allenai/specter2
 
   e5_large_v2:
     huggingface_id: intfloat/e5-large-v2
     display_name: E5-large-v2
     directory_name: e5_large_v2
+    q_text: "query: "
+    doc_text: "passage: "
 
   bert_for_patents:
     huggingface_id: anferico/bert-for-patents
@@ -51,7 +54,7 @@ models:
     display_name: patembed-large (IN)
     directory_name: patembed_large_IN
     normalize: true # embeddings = F.normalize(embeddings, p=2, dim=1)
-    q_text: "encode query for same document retrieval: " # include separator
+    q_text: "encode query for same document retrieval: "
     doc_text: "encode document for same retrieval: "
 
   patembed_retrieval_OUT:
@@ -59,16 +62,16 @@ models:
     display_name: patembed-large (OUT)
     directory_name: patembed_large_OUT
     normalize: true # embeddings = F.normalize(embeddings, p=2, dim=1)
-    q_text: "encode query for different document retrieval: " # include separator
-    doc_text: "encode document for different retrieval: " # include separator
+    q_text: "encode query for different document retrieval: "
+    doc_text: "encode document for different retrieval: "
 
   patembed_retrieval_MIXED:
     huggingface_id: datalyes/patembed-large
     display_name: patembed-large (MIXED)
     directory_name: patembed_large_MIXED
     normalize: true # embeddings = F.normalize(embeddings, p=2, dim=1)
-    q_text: "encode query for mixed document retrieval: " # include separator
-    doc_text: "encode document for mixed retrieval: " # include separator
+    q_text: "encode query for mixed document retrieval: "
+    doc_text: "encode document for mixed retrieval: "
 
   pat_specter:
     huggingface_id: mpi-inno-comp/pat_specter

@@ -1,10 +1,10 @@
 model_display,url,RFR_mean,RFR_cls,MRR@10_mean,MRR@10_cls,NDCG@10_mean,NDCG@10_cls,MAP_mean,MAP_cls
-SPECTER 2 Base,https://huggingface.co/allenai/specter2_base,1.171,1.1056666666666668,93.46,95.28,89.91,92.38,84.63,87.85
+SPECTER 2 + proximity adapter,https://huggingface.co/allenai/specter2_base,1.1826666666666668,1.1206666666666667,92.95,94.65,89.62,91.85,84.2,87.18
 BGE-large-en-v1.5,https://huggingface.co/BAAI/bge-large-en-v1.5,1.1159999999999999,1.1276666666666666,94.79,94.42,91.93,91.42,87.26,86.54
-E5-large-v2,https://huggingface.co/intfloat/e5-large-v2,1.1373333333333333,1.149333333333333,94.11,93.68,91.24,90.39,86.37,85.11
 PatentSBERTa,https://huggingface.co/AI-Growth-Lab/PatentSBERTa,1.1723333333333332,1.1506666666666667,92.88,93.5,89.18,90.19,83.59,84.93
 Pat-SPECTER,https://huggingface.co/mpi-inno-comp/pat_specter,1.211,1.1516666666666666,91.69,93.55,88.55,90.21,82.64,84.82
 SPECTER,https://huggingface.co/allenai/specter,1.197,1.152,92.41,93.62,88.79,90.46,83.04,85.32
+E5-large-v2,https://huggingface.co/intfloat/e5-large-v2,1.1443333333333332,1.154,93.86,93.43,90.78,90.28,85.63,85.0
 PaECTER,https://huggingface.co/mpi-inno-comp/paecter,1.184,1.2186666666666668,92.54,91.6,89.44,88.33,83.87,82.49
 patembed-large (MIXED),https://huggingface.co/datalyes/patembed-large,1.191,1.2456666666666667,92.3,90.32,89.14,87.13,83.49,80.82
 patembed-large (IN),https://huggingface.co/datalyes/patembed-large,1.1886666666666665,1.2526666666666666,92.44,89.98,89.08,87.15,83.36,80.9

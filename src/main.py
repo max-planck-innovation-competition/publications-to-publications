@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 
 from src.models_config import (
+    get_model_adapter,
     get_model_doc_text,
     get_model_normalize,
     get_model_q_text,
@@ -40,6 +41,7 @@ def main():
         q_text=get_model_q_text(model_name),
         doc_text=get_model_doc_text(model_name),
         normalize=get_model_normalize(model_name),
+        adapter=get_model_adapter(model_name),
     )
 
 

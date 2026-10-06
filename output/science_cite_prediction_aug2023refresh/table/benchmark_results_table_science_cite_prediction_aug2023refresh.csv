@@ -1,10 +1,10 @@
 model_display,url,RFR_mean,RFR_cls,MRR@10_mean,MRR@10_cls,NDCG@10_mean,NDCG@10_cls,MAP_mean,MAP_cls
 BGE-large-en-v1.5,https://huggingface.co/BAAI/bge-large-en-v1.5,1.1,1.099,95.36,95.48,89.34,88.95,84.29,83.79
-SPECTER 2 Base,https://huggingface.co/allenai/specter2_base,1.167,1.119,93.51,94.54,86.66,88.94,80.91,83.65
-PatentSBERTa,https://huggingface.co/AI-Growth-Lab/PatentSBERTa,1.164,1.135,93.07,94.15,86.08,87.59,80.88,82.66
+SPECTER 2 + proximity adapter,https://huggingface.co/allenai/specter2_base,1.153,1.123,93.72,94.53,86.72,88.84,81.06,83.64
 Pat-SPECTER,https://huggingface.co/mpi-inno-comp/pat_specter,1.178,1.135,92.81,94.09,85.96,87.19,80.13,81.5
-E5-large-v2,https://huggingface.co/intfloat/e5-large-v2,1.12,1.142,94.91,94.07,88.86,87.64,83.9,82.48
+PatentSBERTa,https://huggingface.co/AI-Growth-Lab/PatentSBERTa,1.164,1.135,93.07,94.15,86.08,87.59,80.88,82.66
 SPECTER,https://huggingface.co/allenai/specter,1.164,1.145,93.17,93.81,85.85,87.18,79.95,81.45
+E5-large-v2,https://huggingface.co/intfloat/e5-large-v2,1.139,1.152,94.28,93.68,87.92,87.44,82.64,82.27
 GTE-large,https://huggingface.co/thenlper/gte-large,1.095,1.228,95.6,91.68,90.01,78.74,85.21,74.01
 PaECTER,https://huggingface.co/mpi-inno-comp/paecter,1.204,1.231,92.04,91.14,85.97,84.5,80.25,78.72
 patembed-large (IN),https://huggingface.co/datalyes/patembed-large,1.204,1.274,91.79,89.53,85.56,83.27,79.77,76.87
