@@ -12,6 +12,7 @@ MODELS = \
 	patent_sberta \
 	specter \
 	specter2_base \
+	specter2_proximity \
 	e5_large_v2 \
 	bert_for_patents \
 	gte_large \
@@ -28,6 +29,7 @@ HF_ID_scibert_scivocab_uncased := allenai/scibert_scivocab_uncased
 HF_ID_patent_sberta := AI-Growth-Lab/PatentSBERTa
 HF_ID_specter := allenai/specter
 HF_ID_specter2_base := allenai/specter2_base
+HF_ID_specter2_proximity := allenai/specter2_base
 HF_ID_e5_large_v2 := intfloat/e5-large-v2
 HF_ID_bert_for_patents := anferico/bert-for-patents
 HF_ID_gte_large := thenlper/gte-large

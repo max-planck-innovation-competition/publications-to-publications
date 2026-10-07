@@ -23,8 +23,13 @@ models:
 
   specter2_base:
     huggingface_id: allenai/specter2_base
-    display_name: SPECTER 2 + proximity adapter
+    display_name: SPECTER2 (base)
     directory_name: specter2_base
+
+  specter2_proximity:
+    huggingface_id: allenai/specter2_base
+    display_name: SPECTER2 + proximity
+    directory_name: specter2_proximity
     adapter: allenai/specter2
 
   e5_large_v2:

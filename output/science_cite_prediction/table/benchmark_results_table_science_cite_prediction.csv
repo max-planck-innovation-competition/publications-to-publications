@@ -1,6 +1,7 @@
 model_display,url,RFR_mean,RFR_cls,MRR@10_mean,MRR@10_cls,NDCG@10_mean,NDCG@10_cls,MAP_mean,MAP_cls
 SPECTER,https://huggingface.co/allenai/specter,1.107,1.081,94.89,95.98,94.04,95.4,89.51,91.9
-SPECTER 2 + proximity adapter,https://huggingface.co/allenai/specter2_base,1.128,1.095,94.28,95.45,93.76,95.14,89.12,91.51
+SPECTER2 (base),https://huggingface.co/allenai/specter2_base,1.115,1.088,94.82,95.73,93.91,95.31,89.21,91.78
+SPECTER2 + proximity,https://huggingface.co/allenai/specter2_base,1.128,1.095,94.28,95.45,93.76,95.14,89.12,91.51
 BGE-large-en-v1.5,https://huggingface.co/BAAI/bge-large-en-v1.5,1.098,1.104,95.28,95.0,95.05,94.67,91.47,90.77
 Pat-SPECTER,https://huggingface.co/mpi-inno-comp/pat_specter,1.151,1.109,93.09,94.9,92.74,94.3,87.52,90.01
 E5-large-v2,https://huggingface.co/intfloat/e5-large-v2,1.124,1.134,94.28,93.82,93.84,93.32,89.36,88.54
