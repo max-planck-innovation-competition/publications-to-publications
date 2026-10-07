@@ -1,5 +1,6 @@
 model_display,url,RFR_mean,RFR_cls,MRR@10_mean,MRR@10_cls,NDCG@10_mean,NDCG@10_cls,MAP_mean,MAP_cls
-SPECTER 2 + proximity adapter,https://huggingface.co/allenai/specter2_base,1.1826666666666668,1.1206666666666667,92.95,94.65,89.62,91.85,84.2,87.18
+SPECTER2 (base),https://huggingface.co/allenai/specter2_base,1.171,1.1056666666666668,93.46,95.28,89.91,92.38,84.63,87.85
+SPECTER2 + proximity,https://huggingface.co/allenai/specter2_base,1.1826666666666668,1.1206666666666667,92.95,94.65,89.62,91.85,84.2,87.18
 BGE-large-en-v1.5,https://huggingface.co/BAAI/bge-large-en-v1.5,1.1159999999999999,1.1276666666666666,94.79,94.42,91.93,91.42,87.26,86.54
 PatentSBERTa,https://huggingface.co/AI-Growth-Lab/PatentSBERTa,1.1723333333333332,1.1506666666666667,92.88,93.5,89.18,90.19,83.59,84.93
 Pat-SPECTER,https://huggingface.co/mpi-inno-comp/pat_specter,1.211,1.1516666666666666,91.69,93.55,88.55,90.21,82.64,84.82
